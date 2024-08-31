@@ -1,0 +1,27 @@
+.border{
+    border: 2px solid red;
+}
+
+.flex{
+    display: flex;
+}
+
+.mtb{
+    margin: 18px 0;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}

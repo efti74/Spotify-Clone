@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" type="image/x-icon" href="https://open.spotify.com/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left sticky">
+            <div class="home">
+                <div class="logo"><img class="invert" src="logo.svg" alt="spotify logo"></div>
+                <ul>
+                    <li class="mtb"><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li class="mtb"><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library">
+                <div class="heading">
+                    <div class="your-library">
+                        <img class="invert" src="library.svg" alt="library">
+                        <p>Your Library</p>
+                    </div>
+                    <img class="invert" src="add.svg" alt="">
+                </div>
+                <div class="playlist-section">
+                    <div class="playlist">
+                        <p>Create your first playlist</p>
+                        <p>It's easy, we'll help you</p>
+                        <button>Create Playlist</button>
+                    </div>
+                    <div class="podcast">
+                        <p>Let's find some podcasts to follow</p>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button>Browse podcasts</button>
+                    </div>
+                </div>
+                <div class="footer">
+                    <a href="https://www.spotify.com/bd-en/legal/" id="" data-encore-id="textLink"><span
+                            data-encore-id="type">Legal</span></a>
+                    <a href="https://www.spotify.com/bd-en/safetyandprivacy/" id="" data-encore-id="textLink"><span
+                            data-encore-id="type">Safety & Privacy Center</span></a>
+                    <a href="https://www.spotify.com/bd-en/legal/privacy-policy/" id="" data-encore-id="textLink"><span
+                            data-encore-id="type">Privacy Policy</span></a>
+                    <a href="https://www.spotify.com/bd-en/legal/cookies-policy/" id="" data-encore-id="textLink"><span
+                            data-encore-id="type">Cookies</span></a>
+                    <a href="https://www.spotify.com/bd-en/legal/privacy-policy/#s3" id=""
+                        data-encore-id="textLink"><span data-encore-id="type">About Ads</span></a>
+                    <a href="https://www.spotify.com/bd-en/accessibility/" id="" data-encore-id="textLink"><span
+                            data-encore-id="type">Accessibility</span></a>
+                </div>
+                <div class="change-lang">
+                    <button>
+                        <img class="invert" src="language.svg" alt="change language">
+                        <p>English</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <header class="sticky">
+                <div class="nav">
+                    <button>
+                        <img class="invert" src="left.svg" alt="">
+                    </button>
+                    <button>
+                        <img class="invert" src="right.svg" alt="">
+                    </button>
+                </div>
+                <div class="buttons">
+                    <button class="btn-sign">Sign up</button>
+                    <button class="btn-log">Log in</button>
+                </div>
+            </header>
+            <div class="popularArtists">
+                <a href="#">Popular artists</a>
+                <button>Show all</button>
+            </div>
+            <div class="cardContainer">
+                <div class="circular-card">
+                    <img src="pritam.jpg" alt="pritam image">
+                    <!-- <button class="playbtn">
+                            <img class="play" src="play.svg" alt="">
+                        </button> -->
+                    <p>Pritam</p>
+                    <p class="artist">Artist</p>
+                </div>
+                <div class="circular-card">
+                    <img src="arijit_singh.jpg" alt="arijit_singh image">
+                    <!-- <button class="playbtn">
+                            <img class="play" src="play.svg" alt="">
+                        </button> -->
+                    <p>Arijit Singh</p>
+                    <p class="artist">Artist</p>
+                </div>
+                <div class="circular-card">
+                    <img src="atif_aslam.jpg" alt="atif_aslam image">
+                    <!-- <button class="playbtn">
+                            <img class="play" src="play.svg" alt="">
+                        </button> -->
+                    <p>Atif Aslam</p>
+                    <p class="artist">Artist</p>
+                </div>
+                <div class="circular-card">
+                    <img src="darshan_raval.jpg" alt="darshan_raval image">
+                    <!-- <button class="playbtn">
+                            <img class="play" src="play.svg" alt="">
+                        </button> -->
+                    <p>Darshan Raval</p>
+                    <p class="artist">Artist</p>
+                </div>
+                <div class="circular-card">
+                    <img src="vishal_mishra.jpg" alt="vishal_mishra image">
+                    <!-- <button class="playbtn">
+                            <img class="play" src="play.svg" alt="">
+                        </button> -->
+                    <p>Vishal Mishra</p>
+                    <p class="artist">Artist</p>
+                </div>
+                <div class="circular-card">
+                    <img src="arnob.jpg" alt="arnob image">
+                    <!-- <button class="playbtn">
+                            <img class="play" src="play.svg" alt="">
+                        </button> -->
+                    <p>Arnob</p>
+                    <p class="artist">Artist</p>
+                </div>
+                <div class="circular-card">
+                    <img src="sachin_jigar.jpg" alt="sachin_jigar image">
+                    <!-- <button class="playbtn">
+                            <img class="play" src="play.svg" alt="">
+                        </button> -->
+                    <p>Sachin-Jigar</p>
+                    <p class="artist">Artist</p>
+                </div>
+            </div>
+            <div class="popularAlbums">
+                <a href="#">Popular albums</a>
+                <button>Show all</button>
+            </div>
+            <div class="cardContainer">
+                <div class="rectangle-card">
+                    <img src="d-day.jpg" alt="d-day album">
+                    <p>D-DAY</p>
+                    <P class="album">Agust D</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="muse.jpg" alt="muse album">
+                    <p>MUSE</p>
+                    <P class="album">Jimin</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="golden.jpg" alt="golden album">
+                    <p>GOLDEN</p>
+                    <P class="album">Jung Kook</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="aalas-ka-pedh.jpg" alt="aalas-ka-pedh album">
+                    <p>Aalas Ka Pedh</p>
+                    <P class="album">The Local Train</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="best-of-romance.jpg" alt="best-of-romance:atif aslam and pritam album">
+                    <p>Best of Romance: Atif Aslam & Pritam</p>
+                    <P class="album">Atif Aslam, Pritam</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="shotto.jpg" alt="shotto album">
+                    <p>Shotto</p>
+                    <P class="album">Warfaze</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="hit-me-hard-and-soft.jpg" alt="hit-me-hard-and-soft album">
+                    <p>HIT ME HARD AND SOFT</p>
+                    <P class="album">Billie Eilish</P>
+                </div>
+            </div>
+            <div class="popularAlbums">
+                <a href="#">Popular radio</a>
+                <button>Show all</button>
+            </div>
+            <div class="cardContainer">
+                <div class="rectangle-card">
+                    <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4YRxDV8wJFPHPTeXepOstw/en-GB" alt="arijit-radio">
+                    <P class="album">With Neha Kakkar, Pritam, KK and more</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/06eRdiCBgFUhiuFjei0eH2/en-GB" alt="warfaze radio">
+                    <P class="album">With Artcell, Arbovirus, Aftermath and more</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/0WBg7b6KiPmfh7lI5vbFKC/en-GB" alt="meghdol radio">
+                    <P class="album">With Nemesis, Recall, Bay of Bengal and more</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/79iOqoOkavfzftyQjx21qp/en-GB" alt="aftermath radio">
+                    <P class="album">With Level Five, Karnival, Shonar Bangla Circus and more</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/60jYUgQzKAtnJoXKGk1GNn/en-GB" alt="habib wahid radio">
+                    <P class="album">With Hridoy Khan, Balam, Porshi and more</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/2oSONSC9zQ4UonDKnLqksx/en-GB" alt="atif aslam radio">
+                    <P class="album">With Ali Zafar, Rahat Fateh Ali Khan, Asim Azhar and more</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB" alt="kk radio">
+                    <P class="album">With Mohit Chauhan, Ankit Tiwari, Javed Ali and more</P>
+                </div>
+            </div>
+            <div class="popularAlbums">
+                <a href="#">Featured Charts</a>
+            </div>
+            <div class="cardContainer">
+                <div class="rectangle-card">
+                    <img src="top-songs-global.jpg" alt="top-songs-global">
+                    <P class="album">Your weekly update of the most played tracks right now - Global.</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="top-songs-usa.jpg" alt="top-songs-usa>
+                    <P class="album">Your weekly update of the most played tracks right now - USA.</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="top-50-global.jpg" alt="top-50-global">
+                    <P class="album">Your daily update of the most played tracks right now - Global.</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="top-50-usa.jpg" alt="top-50-usa>
+                    <P class="album">Your daily update of the most played tracks right now - USA.</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="viral-50-global.jpg" alt="viral-50-global">
+                    <P class="album">Your daily update of the most viral tracks right now - Global.</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="viral-50-usa.jpg" alt="viral-50-usa">
+                    <P class="album">Your daily update of the most viral tracks right now - USA.</P>
+                </div>
+            </div>
+            <div class="popularAlbums">
+                <a href="#">Spotify Playlists</a>
+                <button>Show all</button>
+            </div>
+            <div class="cardContainer">
+                <div class="rectangle-card">
+                    <img src="sweet-soul-chillout.jpg" alt="sweet-soul-chillout">
+                    <P class="album">Chill out to the sweetest soul songs.</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="pop-rising.jpg" alt="pop-rising">
+                    <P class="album">Who's now and next in pop. Cover: Addison Rae</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="positive-focus.jpg" alt="positive-focus">
+                    <P class="album">Soothing piano and strings to help you concentrate.</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="lofi-beats.jpg" alt="lofi-beats">
+                    <P class="album">chill beats, lofi vibes, new tracks every week... </P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="marrow.jpg" alt="marrow">
+                    <P class="album">rock never dies | feel it in your bones.  📸: Fontaines D.C.</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="tth.jpg" alt="Today's Top Hits">
+                    <P class="album">The hottest 50. Cover: Lady Gaga & Bruno Mars</P>
+                </div>
+                <div class="rectangle-card">
+                    <img src="chillout-lounge.jpg" alt="chillout-lounge">
+                    <P class="album">Just lean back and enjoy relaxed beats.</P>
+                </div>
+            </div>
+            <footer>
+                <div class="company">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">For the Record</a>
+                </div>
+                <div class="communities">
+                    <h4>Communities</h4>
+                    <a href="#">For Artists</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Vendors</a>
+                </div>
+                <div class="useful_links">
+                    <h4>Useful links</h4>
+                    <a href="#">Suppport</a>
+                    <a href="#">Free Mobile App</a>
+                </div>
+                <div class="spotify-plans">
+                    <h4>Spotify Plans</h4>
+                    <a href="#">Premium Individual</a>
+                    <a href="#">Premium Duo</a>
+                    <a href="#">Premium Family</a>
+                    <a href="#">Premium Student</a>
+                    <a href="#">Spotify Free</a>
+                </div>
+                <div class="social-media-links">
+                    <button>
+                        <img class="invert" src="instagrm.svg" alt="instagrm">
+                    </button>
+                    <button>
+                        <img class="invert" src="twitter.svg" alt="twitter">
+                    </button>
+                    <button>    
+                        <img class="invert" src="facebook.svg" alt="facebook">
+                    </button>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
